@@ -34,16 +34,6 @@ proxies:
     path: /trojan-ws
     headers:
         Host: sgtr-prem.premiumvip.tech
-#========= TROJAN GFW PREM =========
-- name: 🇮🇩 🟡 𝙂𝙁-𝙉𝙐𝙎𝘼𝙄𝘿 🟡
-  type: trojan
-  server: 38.9.140.190
-  port: 443
-  password: nusaid
-  udp: true
-  sni: spotify.com
-  sni: api.joox.com
-  skip-cert-verify: true
 #========= TROJAN GO PREM =========
 #dnsexprd06-08
 - name: 🇮🇩 🟡 𝙂𝙊-𝘽𝙄𝙕𝙉𝙀𝙏 🟡
