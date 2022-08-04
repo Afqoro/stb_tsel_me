@@ -49,3 +49,17 @@ proxies:
   sni: spotify.com
   sni: api.joox.com
   skip-cert-verify: true
+#========= TROJAN GRPC PREM =========
+#PREMIUM SGDO
+- name: 🇸🇬 🔵 𝘿𝙊-𝙂𝘼𝙈𝙀 🔵
+  type: trojan
+  server: 159.89.201.118
+  port: 443
+  password: c8d35351-2bb8-4a0d-8c4e-568bcb3bf76f
+  udp: true
+  sni: spotify.com
+  sni: api.joox.com
+  skip-cert-verify: true
+  network: grpc
+  grpc-opts:
+    grpc-service-name: tdngrpc443  
