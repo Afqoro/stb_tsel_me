@@ -1,0 +1,66 @@
+proxies:
+#========= TROJAN GO PREM =========
+- name: 🇮🇩 🟠 𝙂𝙊_𝙃𝙀𝙍𝙕𝘼𝙄𝘿 🟠
+  server: gamemax.prem.my.id
+  server: tsel-game.bugs.systems
+  port: 443
+  type: trojan
+  password: QKxORMaP
+  network: ws
+  sni: herzaid-vip.rockstartun.xyz
+  skip-cert-verify: true
+  udp: true
+  ws-opts:
+    path: /trojango
+    headers:
+        Host: herzaid-vip.rockstartun.xyz
+#========= TROJAN GO PREM =========
+- name: 🇸🇬 🟠 𝙂𝙊-𝘿𝙊𝘾𝙀𝘼𝙉 🟠
+  server: gamemax.prem.my.id
+  server: tsel-game.bugs.systems
+  port: 443
+  type: trojan
+  password: c8d35351-2bb8-4a0d-8c4e-568bcb3bf76f
+  network: ws
+  sni: sg-do1.gettunel.me
+  skip-cert-verify: true
+  udp: true
+  ws-opts:
+    path: /trojan-ws
+    headers:
+        Host: sg-do1.gettunel.me
+#========= TROJAN GFW PREM =========
+- name: 🇸🇬 🟠 𝙂𝙁-𝙇𝙄𝙉𝙊𝘿𝙀 🟠
+  type: trojan
+  server: sgtr-prem.premiumvip.tech
+  port: 443
+  password: bd16c7c7-eed4-40af-b41d-f120fd6a9d6c
+  udp: true
+  sni: spotify.com
+  sni: api.joox.com
+  skip-cert-verify: true
+#========= TROJAN GFW PREM =========
+- name: 🇮🇩 🟠 𝙂𝙁-𝘽𝙄𝙕𝙉𝙀𝙏 🟠
+  type: trojan
+  server: idbiz01.premiumvip.tech
+  port: 443
+  password: goodboy
+  udp: true
+  sni: spotify.com
+  sni: api.joox.com
+  skip-cert-verify: true
+#========= TROJAN GO PREM =========
+- name:  🇮🇩 🟠 𝙂𝙊-𝙉𝙐𝙎𝘼𝙄𝘿 🟠
+  server: gamemax.prem.my.id
+  server: tsel-game.bugs.systems
+  port: 443
+  type: trojan
+  password: nusaid
+  network: ws
+  sni: nusaid.wdsmm.me
+  skip-cert-verify: true
+  udp: true
+  ws-opts:
+    path: /trojan-go
+    headers:
+        Host: nusaid.wdsmm.me

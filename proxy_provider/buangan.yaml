@@ -1,0 +1,146 @@
+proxies:
+- name: 🇮🇩 GFJUP√
+  type: trojan
+  server: id2.jupitervpn.me
+  port: 443
+  password: jupitervpn-ghfhg
+  udp: true
+  sni: api.joox.com
+  skip-cert-verify: true 
+- name: 🇮🇩 KITX
+  type: vmess
+  server: id-lb.sshkit.org
+  port: 443
+  uuid: 6fea1649-425b-4092-bf53-29792152c925
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: spotify.com
+  network: ws
+  ws-opts:
+    path: /sshkit/sddkkd/6290a4bacc4c3/
+    headers:
+      Host: spotify.com  
+- name: SG TCFV
+  server: sg.freevmess.com
+  port: 443
+  type: vless
+  uuid: 87ea9ca9-3df5-47b7-b0b4-bf6c339a8cc9
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: spotify.com
+  udp: true      
+- name: SG TFV
+  type: trojan
+  server: sg.freevmess.com
+  port: 443
+  password: 87ea9ca9-3df5-47b7-b0b4-bf6c339a8cc9
+  udp: true
+  sni: spotify.com
+  skip-cert-verify: true
+- name: SG TCRACE
+  server: sg2-full.privateip.net
+  port: 443
+  type: vless
+  uuid: 38b67a3a-6705-41ee-8a1c-9ac422890d45
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: spotify.com
+  udp: true
+- name: SG GRSER
+  server: sg1grpc.serverssh.us
+  port: 443
+  type: vmess
+  uuid: 77374b9f-864a-4070-b4cf-f6948950708d
+  alterId: 0
+  cipher: auto
+  network: grpc
+  tls: true
+  servername: spotify.com
+  skip-cert-verify: true
+  grpc-opts:
+    grpc-service-name: grpc
+- name: SG GFRACE
+  type: trojan
+  server: sg2-full.privateip.net
+  port: 443
+  password: 38b67a3a-6705-41ee-8a1c-9ac422890d45
+  udp: true
+  sni: api.joox.com
+  skip-cert-verify: true
+- name: SG VMSSSH
+  type: vmess
+  server: sgv3.xserv.cc
+  port: 443
+  uuid: fe2d7726-bd7d-49cf-95c0-fbabf12bb14e
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: spotify.com
+  network: ws
+  ws-opts:
+    path: /v2ray
+    headers:
+      Host: spotify.com
+#========= VLESS XTLS =========
+- name: 🇮🇩 XTRACE√
+  server: id-full.privateip.net
+  port: 443
+  type: vless
+  uuid: ad71c758-f4f9-4e37-9821-7364f369750b
+  cipher: auto
+  tls: true
+  flow: xtls-rprx-direct
+  skip-cert-verify: true
+  servername: spotify.com
+- name: 🇸🇬 GRJUPY
+  type: vless
+  server: 194.233.90.246
+  port: 443
+  uuid: 13676daa-f30a-422d-acfe-f2d0a2aefec1
+  udp: true
+  skip-cert-verify: true
+  tls: true
+  servername: spotify.com,api.joox.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: xray-vless-grpc
+- name: 🇮🇩 GRJUPX
+  server: 202.145.2.147
+  port: 443
+  type: vmess
+  uuid: fbb6b1ac-072c-4fc6-b8a1-47dfcb377e49
+  alterId: 0
+  cipher: auto
+  network: grpc
+  tls: true
+  servername: spotify.com,api.joox.com
+  skip-cert-verify: true
+  grpc-opts:
+    grpc-service-name: v2ray-vmess-grpc
+#========= VLESS TCP =========
+- name: 🇮🇩 TCRACE√
+  server: 103.169.210.42
+  port: 443
+  type: vless
+  uuid: ad71c758-f4f9-4e37-9821-7364f369750b
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: spotify.com,api.joox.com
+  udp: true
+#========= TROJAN GFW =========      
+- name: 🇸🇬 MELBI√
+  type: trojan
+  server: 103.172.116.189
+  port: 443
+  password: sengkyou45
+  udp: true
+  sni: spotify.com,api.joox.com
+  skip-cert-verify: true  

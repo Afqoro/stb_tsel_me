@@ -1,0 +1,63 @@
+proxies:
+#========= TROJAN GRPC PREM =========
+- name: 🇸🇬 🟢 𝙂𝙍-𝘿𝙊𝘾𝙀𝘼𝙉 🟢
+  type: trojan
+  server: 159.89.201.118
+  port: 443
+  password: c8d35351-2bb8-4a0d-8c4e-568bcb3bf76f
+  udp: true
+  sni: spotify.com
+  sni: api.joox.com
+  skip-cert-verify: true
+  network: grpc
+  grpc-opts:
+    grpc-service-name: tdngrpc443
+- name: 🇸🇬 🟢 𝙂𝙍-𝙇𝙄𝙉𝙊𝘿𝙀 🟢
+  type: trojan
+  server: gamemax.prem.my.id
+  server: tsel-game.bugs.systems
+  port: 443
+  password: bd16c7c7-eed4-40af-b41d-f120fd6a9d6c
+  udp: true
+  sni: sgtr-prem.premiumvip.tech
+  skip-cert-verify: true
+  network: grpc
+  grpc-opts:
+    grpc-service-name: tdngrpc443
+#========= TROJAN XTLS PREM =========
+- name: 🇸🇬 🟢 𝙓𝙏-𝙇𝙄𝙉𝙊𝘿𝙀 🟢
+  server: sgtr-prem.premiumvip.tech
+  port: 443
+  type: trojan
+  password: bd16c7c7-eed4-40af-b41d-f120fd6a9d6c
+  flow: xtls-rprx-direct
+  skip-cert-verify: true
+  sni: spotify.com
+  sni: api.joox.com
+  udp: true
+- name: 🇸🇬 🟢 𝙓𝙏-𝘿𝙊𝘾𝙀𝘼𝙉 🟢
+  server: sg-do1.gettunel.me
+  port: 443
+  type: trojan
+  password: c8d35351-2bb8-4a0d-8c4e-568bcb3bf76f
+  flow: xtls-rprx-direct
+  skip-cert-verify: true
+  sni: spotify.com
+  sni: api.joox.com
+  udp: true
+#========= TROJAN VLESS FREE 30-07 =========
+- name: 🇮🇩 🟢 𝙑𝙇_𝙍𝘼𝙅𝘼𝙎𝘼 🟢
+  server: gamemax.prem.my.id
+  server: tsel-game.bugs.systems
+  port: 443
+  type: vless
+  uuid: d2744bf4-2ed3-4205-9314-de5af91122dd
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: id4.v2vless.xyz
+  network: ws
+  ws-opts:
+    path: /vless
+    headers:
+      Host: id4.v2vless.xyz
