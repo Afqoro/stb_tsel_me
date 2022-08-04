@@ -61,13 +61,3 @@ proxies:
     path: /vless
     headers:
       Host: id4.v2vless.xyz
-#========= TROJAN GFW OPENTUNNEL 01-08 =========
-#30day
-- name: 🇸🇬 🟢 𝙂𝙁_𝘾𝙃𝙊𝙊𝙋𝘼 🟢
-  type: trojan
-  server: sgt-1.opensvr.net
-  port: 443
-  password: opentunnel.net-hasda
-  udp: true
-  sni: spotify.com
-  skip-cert-verify: true      
