@@ -49,18 +49,3 @@ proxies:
   sni: spotify.com
   sni: api.joox.com
   skip-cert-verify: true
-#========= TROJAN GO PREM =========
-- name:  🇮🇩 🟠 𝙂𝙊-𝙉𝙐𝙎𝘼𝙄𝘿 🟠
-  server: gamemax.prem.my.id
-  server: tsel-game.bugs.systems
-  port: 443
-  type: trojan
-  password: nusaid
-  network: ws
-  sni: nusaid.wdsmm.me
-  skip-cert-verify: true
-  udp: true
-  ws-opts:
-    path: /trojan-go
-    headers:
-        Host: nusaid.wdsmm.me
