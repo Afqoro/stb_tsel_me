@@ -10,16 +10,6 @@ proxies:
   sni: api.joox.com
   skip-cert-verify: true
 #========= TROJAN GFW PREM =========
-- name: 🇮🇩 🟡 𝙂𝙁-𝙉𝙐𝙎𝘼𝙄𝘿 🟡
-  type: trojan
-  server: 38.9.140.190
-  port: 443
-  password: nusaid
-  udp: true
-  sni: spotify.com
-  sni: api.joox.com
-  skip-cert-verify: true  
-#========= TROJAN GFW PREM =========
 - name: 🇸🇬 🟡 𝙂𝙁-𝘿𝙊𝘾𝙀𝘼𝙉 🟡
   type: trojan
   server: 159.89.201.118
