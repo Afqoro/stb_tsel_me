@@ -50,3 +50,16 @@ proxies:
     path: /trojan-go
     headers:
         Host: idbiz01.premiumvip.tech
+#========= TROJAN GRPC PREM =========
+- name: 🇸🇬 🔵 𝙇𝙄𝙉𝙊-𝙂𝘼𝙈𝙀 🔵
+  type: trojan
+  server: sgtr-prem.premiumvip.tech
+  port: 443
+  password: bd16c7c7-eed4-40af-b41d-f120fd6a9d6c
+  udp: true
+  sni: spotify.com
+  sni: api.joox.com
+  skip-cert-verify: true
+  network: grpc
+  grpc-opts:
+    grpc-service-name: tdngrpc443        
