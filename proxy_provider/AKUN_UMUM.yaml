@@ -49,18 +49,19 @@ proxies:
   sni: spotify.com
   sni: api.joox.com
   skip-cert-verify: true
-- name: 🇮🇩 🟠 𝙑𝙇_MENARA 🟠
+- name: 🇸🇬 VMF-AMP
+  type: vmess
   server: gamemax.prem.my.id
-  server: tsel-game.bugs.systems
   port: 443
-  type: vless
-  uuid: 30228203-a7a3-4636-8ae1-5335fcce5f97
+  uuid: 72edf457-474c-4641-afaf-7397b958749b
+  alterId: 0
   cipher: auto
+  udp: true
   tls: true
   skip-cert-verify: true
-  servername: id1.v2vless.xyz
+  servername: id3.v2-ray.com
   network: ws
   ws-opts:
-    path: /vless
+    path: /fastssh/sdfs/62f06768acfce/
     headers:
-      Host: id1.v2vless.xyz 
+      Host: id3.v2-ray.com
