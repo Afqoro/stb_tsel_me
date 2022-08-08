@@ -62,3 +62,16 @@ proxies:
   skip-cert-verify: true
   grpc-opts:
     grpc-service-name: v2ray-vmess-grpc
+- name: 🇸🇬 GR-JALDO
+  server: dewabiz.kitu.xyz
+  port: 443
+  type: vmess
+  uuid: bd4a9f33-1d88-4f69-b2f4-d92a12772edf
+  alterId: 0
+  cipher: auto
+  network: grpc
+  tls: true
+  servername: spotify.com
+  skip-cert-verify: true
+  grpc-opts:
+    grpc-service-name: v2ray-vmess-grpc
