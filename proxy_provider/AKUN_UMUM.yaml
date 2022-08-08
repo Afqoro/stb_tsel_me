@@ -49,19 +49,16 @@ proxies:
   sni: spotify.com
   sni: api.joox.com
   skip-cert-verify: true
-- name: 🇸🇬 VMF-AMP
-  type: vmess
-  server: gamemax.prem.my.id
+- name: 🇸🇬 GR-JALDO
+  server: do1.kitu.xyz
   port: 443
-  uuid: 72edf457-474c-4641-afaf-7397b958749b
+  type: vmess
+  uuid: da4406c6-f2ff-4fdf-bfc2-3faa30bf9d62
   alterId: 0
   cipher: auto
-  udp: true
+  network: grpc
   tls: true
+  servername: spotify.com
   skip-cert-verify: true
-  servername: id3.v2-ray.com
-  network: ws
-  ws-opts:
-    path: /fastssh/sdfs/62f06768acfce/
-    headers:
-      Host: id3.v2-ray.com
+  grpc-opts:
+    grpc-service-name: v2ray-vmess-grpc
