@@ -51,7 +51,7 @@ proxies:
     headers:
         Host: idbiz01.premiumvip.tech
 #========= TROJAN GRPC PREM =========
-- name: 🇸🇬 🔵 𝙇𝙄𝙉𝙊-𝙂𝘼𝙈𝙀 🔵
+- name: 🇸🇬 🟡 𝙇𝙄𝙉𝙊-𝙂𝘼𝙈𝙀 🟡
   type: trojan
   server: sgtr-prem.premiumvip.tech
   port: 443
@@ -62,4 +62,16 @@ proxies:
   skip-cert-verify: true
   network: grpc
   grpc-opts:
-    grpc-service-name: tdngrpc443        
+    grpc-service-name: tdngrpc443
+- name: 🇸🇬 🟡 GR-GLOBAL 🟡
+  type: trojan
+  server: dewabiz.kitu.xyz
+  port: 443
+  password: 30fd3b32-f043-4682-ab0e-6bbdaba1026c
+  udp: true
+  sni: spotify.com
+  sni: api.joox.com
+  skip-cert-verify: true
+  network: grpc
+  grpc-opts:
+    grpc-service-name: xray-trojan-grpc    
