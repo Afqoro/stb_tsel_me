@@ -62,7 +62,7 @@ proxies:
   skip-cert-verify: true
   grpc-opts:
     grpc-service-name: v2ray-vmess-grpc
-- name: 🇸🇬 GR-JALDO
+- name: 🇸🇬 GR-GLOBAL
   server: dewabiz.kitu.xyz
   port: 443
   type: vmess
