@@ -12,6 +12,18 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: tdngrpc443
+- name: 🇸🇬 🟢 GR-NUSA 🟢
+  type: trojan
+  server: nusa1.kitu.xyz
+  port: 443
+  password: 792d50d0-476c-49f5-8684-142d1d184008
+  udp: true
+  sni: spotify.com
+  sni: api.joox.com
+  skip-cert-verify: true
+  network: grpc
+  grpc-opts:
+    grpc-service-name: xray-trojan-grpc    
 - name: 🇸🇬 🟢 𝙂𝙍-𝙇𝙄𝙉𝙊𝘿𝙀 🟢
   type: trojan
   server: gamemax.prem.my.id
