@@ -63,15 +63,3 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: tdngrpc443
-- name: VL-GR-GLOBA2L
-  type: vless
-  server: dewabiz2.kitu.xyz
-  port: 443
-  uuid: 7fc1d364-63dc-4ca7-9e80-84994ad9ff7e
-  udp: true
-  skip-cert-verify: true
-  tls: true
-  servername: spotify.com
-  network: grpc
-  grpc-opts:
-    grpc-service-name: xray-vless-grpc  
