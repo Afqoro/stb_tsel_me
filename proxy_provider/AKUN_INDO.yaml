@@ -63,15 +63,15 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: tdngrpc443
-- name: 🇸🇬 🟡 GR-GLOBAL 🟡
-  type: trojan
-  server: dewabiz.kitu.xyz
+- name: VL-GR-GLOBA2L
+  type: vless
+  server: dewabiz2.kitu.xyz
   port: 443
-  password: 30fd3b32-f043-4682-ab0e-6bbdaba1026c
+  uuid: 7fc1d364-63dc-4ca7-9e80-84994ad9ff7e
   udp: true
-  sni: spotify.com
-  sni: api.joox.com
   skip-cert-verify: true
+  tls: true
+  servername: spotify.com
   network: grpc
   grpc-opts:
-    grpc-service-name: xray-trojan-grpc    
+    grpc-service-name: xray-vless-grpc  
