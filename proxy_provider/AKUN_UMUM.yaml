@@ -49,19 +49,6 @@ proxies:
   sni: spotify.com
   sni: api.joox.com
   skip-cert-verify: true
-- name: 🇸🇬 🟠 GR-JALDO 🟠
-  server: do1.kitu.xyz
-  port: 443
-  type: vmess
-  uuid: da4406c6-f2ff-4fdf-bfc2-3faa30bf9d62
-  alterId: 0
-  cipher: auto
-  network: grpc
-  tls: true
-  servername: spotify.com
-  skip-cert-verify: true
-  grpc-opts:
-    grpc-service-name: v2ray-vmess-grpc
 - name: 🇸🇬 🟠 GR-NUSA 🟠
   type: trojan
   server: nusa1.kitu.xyz
