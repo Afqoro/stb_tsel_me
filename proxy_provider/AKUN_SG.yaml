@@ -45,19 +45,16 @@ proxies:
   sni: spotify.com
   sni: api.joox.com
   udp: true
-#========= TROJAN VLESS FREE 30-07 =========
-- name: 🇮🇩 🟢 𝙑𝙇_𝙍𝘼𝙅𝘼𝙎𝘼 🟢
-  server: gamemax.prem.my.id
-  server: tsel-game.bugs.systems
+- name: 🇸🇬 🟢 GR-JALDO 🟢
+  server: do1.kitu.xyz
   port: 443
-  type: vless
-  uuid: f8f58d00-6c53-41ec-a526-f785cb31b48e
+  type: vmess
+  uuid: da4406c6-f2ff-4fdf-bfc2-3faa30bf9d62
+  alterId: 0
   cipher: auto
+  network: grpc
   tls: true
+  servername: spotify.com
   skip-cert-verify: true
-  servername: id4.v2vless.xyz
-  network: ws
-  ws-opts:
-    path: /vless
-    headers:
-      Host: id4.v2vless.xyz
+  grpc-opts:
+    grpc-service-name: v2ray-vmess-grpc  
